@@ -1,15 +1,15 @@
-%Hongyi Su, B.S., B.E., MSc. Student in Geophysics at LMU Munich and TUM, 30.12.2020
+%Hongyi Su, Geophysics student at LMU Munich and TUM, 30.12.2020
 
 %This scrpt is used for two-layered(core-mentle)earth model
 %Assumption:
 %1. The earth is a perfect sphere(ball) 
 %2. Core-mantle model, where core is the inner part and mantle is the outer part
 %3. rho_mentle and rho_core are constant within its own layer, where
-%rho_mentle and rho_core are density of mentle and core respectively
+%   rho_mentle and rho_core are density of mentle and core respectively
 
 %Define Global Parameters 
-R = 6371; % earth radius in kilometers ????????
-M = 5.974*10^24; % earth mass in kg ????????
+R = 6371; % earth radius in kilometers
+M = 5.974*10^24; % earth mass in kg
 J = 8.021*10^31; % The moment of inertia of earth in kg*km^2 
 
 %Input, Rc as propertion to R (eg: 1/3*R)
